@@ -1,5 +1,5 @@
 # Feather Text Editor
- A classic lightweight text editor made for educational purposes.
+ A classic lightweight text editor made as an educational exercise.
 
  
  # Features
