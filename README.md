@@ -1,5 +1,5 @@
 # Feather Text Editor
- A classic lightweight text editor made as an educational exercise.
+ A classic lightweight text editor for windows made as an educational exercise.
 
  
  # Features
@@ -14,4 +14,5 @@
 
 - Expanded file type support.
 
+- Port to Linux.
 
