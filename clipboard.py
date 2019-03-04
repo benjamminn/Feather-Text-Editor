@@ -21,7 +21,7 @@ class ClipboardClass(object):
         '''
         
         # Opens pipe to windows 'clip' program.
-        clipboardpipe = subprocess.Popen(['clip'], stdin=subprocess.PIPE)
+        clipboardpipe = subprocess.Popen(['clip'], stdin=subprocess.PIPE, shell=True)
         
         # Sends text to 'clip' through pipe.
         clipboardpipe.communicate(input = text.strip().encode('utf-8'))  
