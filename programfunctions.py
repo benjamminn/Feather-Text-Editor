@@ -51,6 +51,7 @@ class ProgramFunctionsClass(object):
             # Puts the text in the clipboard
             self.clipboard.inputwindowsclipboard(self.text)
         
+
         except: 
         
               return
@@ -71,7 +72,9 @@ class ProgramFunctionsClass(object):
             
             # Deletes selected text
             self.textbox.delete("sel.first", "sel.last")
-        
+            
+
+
         except: 
         
               return

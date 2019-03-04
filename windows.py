@@ -5,6 +5,7 @@ Purpose: Handles all window operations.
 '''
 # Imports
 import tkinter
+import sys
 from tkinter import *
 from tkinter import messagebox
 from tkinter import Menu
@@ -164,7 +165,8 @@ along with the Feather Text Editor.  If not, see
         
         # Opens messagebox to check if the user wants to quit.
         if messagebox.askyesno("Feather Text Editor","Are you sure you want to quit? \n Any unsaved work will be lost.") == True:
-           mainwindow.destroy()
+           mainwindow.destroy() 
+           sys.exit()
         
            
         

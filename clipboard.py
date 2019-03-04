@@ -26,9 +26,8 @@ class ClipboardClass(object):
         # Sends text to 'clip' through pipe.
         clipboardpipe.communicate(input = text.strip().encode('utf-8'))  
         
-        # Closes pipe.
-        clipboardpipe.kill()  
-        
+        # Closes pipe. 
+        clipboardpipe.terminate()   
     
     def outputwindowsclipboard():
         '''
