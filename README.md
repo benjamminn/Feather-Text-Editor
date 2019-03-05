@@ -8,6 +8,9 @@
 - Cut, copy, and paste functions.
 - Search and replace functionality.
 
+# Screenshots
+![game.PNG](https://raw.githubusercontent.com/benjamminn/Feather-Text-Editor/master/screenshots/texteditor.PNG)
+
 # Future Plans
 
 - Syntax Highlighting for C++, C, Python, and Javascript.
